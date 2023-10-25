@@ -42,7 +42,7 @@ class LoadingVC: UIViewController, URLSessionDelegate {
         
         //MARK: Link to server
         
-        let url = URL(string: "https://xleopatraxards.shop/starting")
+        let url = URL(string: "https://xleopatraxards.fan/starting")
 
         let dictionariData: [String: Any?] = ["facebook-deeplink" : appDelegate?.facebookDeepLink, "push-token" : appDelegate?.token, "appsflyer" : appDelegate?.oldAndNotWorkingNames, "deep_link_sub2" : appDelegate?.deep_link_sub2, "deepLinkStr": appDelegate?.deepLinkStr, "timezone-geo": appDelegate?.localizationTimeZoneAbbrtion, "timezome-gmt" : appDelegate?.currentTimeZone, "apps-flyer-id": appDelegate!.id, "attribution-data" : appDelegate?.dataAttribution, "deep_link_sub1" : appDelegate?.deep_link_sub1, "deep_link_sub3" : appDelegate?.deep_link_sub3, "deep_link_sub4" : appDelegate?.deep_link_sub4, "deep_link_sub5" : appDelegate?.deep_link_sub5]
         
