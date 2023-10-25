@@ -80,6 +80,7 @@
 		04201E9D2AE01CBD00E62EF7 = {
 			isa = PBXGroup;
 			children = (
+				04887A2C2AE9557E00C731F1 /* codemagic.yaml */,
 				04201EA82AE01CBD00E62EF7 /* XleopatraXards */,
 				04201EA72AE01CBD00E62EF7 /* Products */,
 				190E3E5CD29518435FB8EA2C /* Pods */,
@@ -104,7 +105,6 @@
 				04201EC22AE01CE200E62EF7 /* Views */,
 				04201EC12AE01CD300E62EF7 /* Scenes */,
 				04201EC02AE01CCA00E62EF7 /* Controllers */,
-				04887A2C2AE9557E00C731F1 /* codemagic.yaml */,
 			);
 			path = XleopatraXards;
 			sourceTree = "<group>";
