@@ -23,7 +23,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb1712331492575349</string>
+				<string>fb2207869906079483</string>
 				<string>XleopatraXards</string>
 			</array>
 		</dict>
@@ -33,9 +33,9 @@
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
 	<true/>
 	<key>FacebookAppID</key>
-	<string>1712331492575349</string>
+	<string>2207869906079483</string>
 	<key>FacebookClientToken</key>
-	<string>0cd07788b140dbca90c68821760cf4cb</string>
+	<string>bd2caa31f5196ca026ecb1176da3ee01</string>
 	<key>FacebookDisplayName</key>
 	<string>Xleopatra Xards</string>
 	<key>LSApplicationQueriesSchemes</key>

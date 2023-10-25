@@ -9,8 +9,8 @@ import AdSupport
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     
     //DEVELOPER MODE
-    let appsFlyerDevKey = "dWnhKGvHKLrRc8KMwog5zY"
-    let appleAppId = "6469707038"
+    let appsFlyerDevKey = "JsUiubZAmymuG82MXAVDE"
+    let appleAppId = "6470379077"
     
     var window: UIWindow?
     

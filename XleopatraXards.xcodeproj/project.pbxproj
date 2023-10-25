@@ -29,6 +29,7 @@
 		042AFABC2AE126FA00F1460B /* fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042AFABB2AE126FA00F1460B /* fire.mp3 */; };
 		042AFABE2AE129C700F1460B /* laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042AFABD2AE129C700F1460B /* laugh.mp3 */; };
 		042AFB192AE166D100F1460B /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AFB182AE166D100F1460B /* Vibration.swift */; };
+		04887A2D2AE9557E00C731F1 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 04887A2C2AE9557E00C731F1 /* codemagic.yaml */; };
 		7BD30D22227DD0814446123F /* Pods_XleopatraXards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261A4F6E69953E562B11F995 /* Pods_XleopatraXards.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		042AFABB2AE126FA00F1460B /* fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire.mp3; sourceTree = "<group>"; };
 		042AFABD2AE129C700F1460B /* laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laugh.mp3; sourceTree = "<group>"; };
 		042AFB182AE166D100F1460B /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
+		04887A2C2AE9557E00C731F1 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 		122B8183D1BE890CAE91D134 /* Pods-XleopatraXards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XleopatraXards.debug.xcconfig"; path = "Target Support Files/Pods-XleopatraXards/Pods-XleopatraXards.debug.xcconfig"; sourceTree = "<group>"; };
 		261A4F6E69953E562B11F995 /* Pods_XleopatraXards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XleopatraXards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		688CDB21005A4FC12ED1670B /* Pods-XleopatraXards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XleopatraXards.release.xcconfig"; path = "Target Support Files/Pods-XleopatraXards/Pods-XleopatraXards.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				04201EC22AE01CE200E62EF7 /* Views */,
 				04201EC12AE01CD300E62EF7 /* Scenes */,
 				04201EC02AE01CCA00E62EF7 /* Controllers */,
+				04887A2C2AE9557E00C731F1 /* codemagic.yaml */,
 			);
 			path = XleopatraXards;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04887A2D2AE9557E00C731F1 /* codemagic.yaml in Resources */,
 				042AFAAE2AE01F3C00F1460B /* phoenix.gif in Resources */,
 				042AFABE2AE129C700F1460B /* laugh.mp3 in Resources */,
 				04201ED42AE01E1600E62EF7 /* FireUp.sks in Resources */,
