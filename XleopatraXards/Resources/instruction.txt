@@ -1,0 +1,22 @@
+Aim of the game: Complete four levels to defeat the evil phoenix. After that, you can endlessly replay sets of four levels.
+
+Game Start:
+You will see a field with face-down cards. Your goal is to find cards with matching symbols.
+
+Revealing Cards:
+Select two-three cards on the field that you want to open by clicking on them. Note that you have a limited number of attempts to open cards in a single turn.
+
+Matching Symbols:
+If the two opened cards have matching symbols, they will remain open and will be removed from the field.
+If the symbols on the selected cards are different, they will be flipped back.
+
+Game Levels:
+To complete each level, you need to clear all cards with matching symbols from the game field.
+After finishing a level, you will progress to the next one.
+Complete four levels to defeat the evil phoenix and complete the game.
+
+Victory and Endless Replay:
+After completing four levels, you have defeated the evil phoenix.
+Now you have the option to endlessly replay sets of four levels, enjoying the game without limits.
+
+Play "Xleopatra Xards", open cards, find matching symbols, and defeat the evil phoenix to unlock endless sets of four levels. Good luck!

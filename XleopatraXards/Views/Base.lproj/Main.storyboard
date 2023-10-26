@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mq4-fi-RHy">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -30,8 +31,19 @@
                     <view key="view" contentMode="scaleToFill" id="Zcp-dx-nNH">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_хleopatra_хards" translatesAutoresizingMaskIntoConstraints="NO" id="KRJ-sR-7mt">
+                                <rect key="frame" x="20" y="79" width="353" height="719"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6ex-EU-9RC"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6ex-EU-9RC" firstAttribute="bottom" secondItem="KRJ-sR-7mt" secondAttribute="bottom" constant="20" id="0od-gY-ZfT"/>
+                            <constraint firstItem="6ex-EU-9RC" firstAttribute="trailing" secondItem="KRJ-sR-7mt" secondAttribute="trailing" constant="20" id="KCv-RW-Tlc"/>
+                            <constraint firstItem="KRJ-sR-7mt" firstAttribute="leading" secondItem="6ex-EU-9RC" secondAttribute="leading" constant="20" id="Utu-o1-F3S"/>
+                            <constraint firstItem="KRJ-sR-7mt" firstAttribute="top" secondItem="6ex-EU-9RC" secondAttribute="top" constant="20" id="tvU-v2-Kjz"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="BV1-FR-VrT" kind="presentation" identifier="menu" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="3Fv-Rm-uNg"/>
@@ -43,6 +55,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="logo_хleopatra_хards" width="872" height="351"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

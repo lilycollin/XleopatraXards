@@ -30,6 +30,7 @@
 		042AFABE2AE129C700F1460B /* laugh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 042AFABD2AE129C700F1460B /* laugh.mp3 */; };
 		042AFB192AE166D100F1460B /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AFB182AE166D100F1460B /* Vibration.swift */; };
 		04887A2D2AE9557E00C731F1 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 04887A2C2AE9557E00C731F1 /* codemagic.yaml */; };
+		04E9C1FC2AEA98B500CD8EDC /* instruction.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04E9C1FB2AEA98B500CD8EDC /* instruction.txt */; };
 		7BD30D22227DD0814446123F /* Pods_XleopatraXards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261A4F6E69953E562B11F995 /* Pods_XleopatraXards.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		042AFABD2AE129C700F1460B /* laugh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laugh.mp3; sourceTree = "<group>"; };
 		042AFB182AE166D100F1460B /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
 		04887A2C2AE9557E00C731F1 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		04E9C1FB2AEA98B500CD8EDC /* instruction.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = instruction.txt; sourceTree = "<group>"; };
 		122B8183D1BE890CAE91D134 /* Pods-XleopatraXards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XleopatraXards.debug.xcconfig"; path = "Target Support Files/Pods-XleopatraXards/Pods-XleopatraXards.debug.xcconfig"; sourceTree = "<group>"; };
 		261A4F6E69953E562B11F995 /* Pods_XleopatraXards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XleopatraXards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		688CDB21005A4FC12ED1670B /* Pods-XleopatraXards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XleopatraXards.release.xcconfig"; path = "Target Support Files/Pods-XleopatraXards/Pods-XleopatraXards.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				042AFABB2AE126FA00F1460B /* fire.mp3 */,
 				042AFAB92AE126AE00F1460B /* phoenix.mp3 */,
 				042AFB182AE166D100F1460B /* Vibration.swift */,
+				04E9C1FB2AEA98B500CD8EDC /* instruction.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				042AFAB62AE124CC00F1460B /* background.mp3 in Resources */,
 				04201EB72AE01CBE00E62EF7 /* Assets.xcassets in Resources */,
 				04201EBA2AE01CBE00E62EF7 /* LaunchScreen.storyboard in Resources */,
+				04E9C1FC2AEA98B500CD8EDC /* instruction.txt in Resources */,
 				042AFABC2AE126FA00F1460B /* fire.mp3 in Resources */,
 				042AFAB02AE01F9500F1460B /* character.gif in Resources */,
 			);
@@ -472,11 +476,13 @@
 				CODE_SIGN_ENTITLEMENTS = XleopatraXards/XleopatraXards.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = XleopatraXards/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Xleopatra Xards";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -488,13 +494,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mw.XleopatraXards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -507,11 +515,13 @@
 				CODE_SIGN_ENTITLEMENTS = XleopatraXards/XleopatraXards.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = XleopatraXards/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Xleopatra Xards";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -523,13 +533,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mw.XleopatraXards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
